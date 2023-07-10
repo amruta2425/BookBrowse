@@ -1,0 +1,9 @@
+@import "../../assets/palette";
+
+.errorPage{
+    background-color: $background-color;
+}
+.container__errorPage__text{
+    margin-top: 20vh;
+    color: $text-color-bg;
+}

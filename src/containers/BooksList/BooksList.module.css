@@ -1,0 +1,8 @@
+.BooksList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  border: 1px solid none;
+}/*# sourceMappingURL=BooksList.module.css.map */

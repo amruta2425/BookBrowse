@@ -1,0 +1,33 @@
+@import "../../assets/palette";
+
+.container__searchBar {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: $text-color;
+}
+
+.container__searchBar__inputfield {
+  width: 10%;
+  padding: 1vh 15vw;
+  margin: 8px 0;
+  border: 1px solid $text-color-bg;
+  border-radius: 4px;
+  color: $text-color;
+  align-items: flex-start;
+}
+
+.button__searchBar__submit {
+  padding: 2vh 2vw;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  background-color: $text-color;
+  color: $text-color-bg;
+  cursor: pointer;
+  margin-left:10px;
+}
+.button__searchBar__submit:hover{
+  color:black;
+  background-color:snow;
+}
