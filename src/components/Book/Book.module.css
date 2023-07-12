@@ -1,33 +1,29 @@
-@import "../../assets/palette";
-
 .container__cards__flex {
   display: flex;
   flex-direction: row;
-  border: 1px solid $text-color-bg;
+  border: 1px solid white;
   border-radius: 10px;
   text-align: center;
-  background-color: $text-color-bg;
-  color: $text-color;
+  background-color: white;
+  color: black;
   font-size: 15px;
-  font-family: 'Cormorant Garamond', serif;;
-  border: 1px solid $text-color;
+  font-family: "Cormorant Garamond", serif;
+  border: 1px solid black;
   margin: 25px;
-  
 }
 
 .container__cards__flex:hover {
-  box-shadow: 0 0 20px $box-shadow;
+  box-shadow: 0 0 20px rgb(11, 10, 10);
   transform: scale(1.02);
 }
 
 img {
   height: 100%;
   width: 120px;
-  //border-radius: 6px;
-  border-right: 1px solid $text-color;
+  border-right: 1px solid black;
   margin-right: 10px;
 }
 
 .container__text__align {
   text-align: left;
-}
+}/*# sourceMappingURL=Book.module.css.map */

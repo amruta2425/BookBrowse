@@ -13,13 +13,17 @@ const App = () => {
   const [dataFromAPI, setDataFromAPI] = useState([]);
   const [receivedDataForHeader, setReceivedDataForHeader] = useState(false);
   
-
+// Function to handle the search action
   const handleSearch = (data) => {
+    // Update the dataFromAPI state variable with the received data
     setDataFromAPI(data);
+    // Set receivedDataForHeader to true since data has been received
     setReceivedDataForHeader(true);
   };
 
+  // Function to get the search term from the search bar component
   const getSearchTerm = (term) => {
+    // Update the searchTermfromSearchBar state variable with the 
     setSearchTermfromSearchBar(term);
   };
 
