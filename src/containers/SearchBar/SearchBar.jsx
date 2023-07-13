@@ -10,8 +10,10 @@ import ErrorPage from "../../components/ErrorPage/ErrorPage.jsx";
 
 const SearchBar = ({ onSearch, searchTerm }) => {
  
+  /**inputValue stores the current value entered in the search input field. */
   const [inputValue, setInputValue] = useState("");
   
+  //initialSearchTerm stores the initial search term that triggers the API call.
   const [initialSearchTerm, setSearchTerm] = useState("");
   
   const [initialAPI, APIAfterSearch] = useState([]);

@@ -29,6 +29,12 @@
     color: $text-color;
     overflow-y: scroll;
     overscroll-behavior-y: auto;
+    
+    & > button{
+      &:hover{
+        cursor: pointer;
+      }
+    }
 
     .container__modal__close {
       position: absolute;
@@ -42,7 +48,9 @@
   .container__modal__body {
     margin-top: 10px;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', serif; 
+    
+    
 
     .container__image {
       height: 300px;
@@ -55,9 +63,7 @@
       background-color: $text-color;
       padding: 2px 10px;
 
-    .container__link:hover{
-      color:$hover;
-    }
+   
     }
   }
 
