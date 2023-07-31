@@ -1,5 +1,12 @@
-# Outline
-- This project will require you to use both DOM manipulation and Asynchronous programming. The aim is for the user to be able to search for a book inside the Google Books database and to be able to get more details about a certain title.
+# Project Features
+
+![Google books Landing Page](public/one.png)
+![Google books App - List of all Books](public/two.png)
+![Google books Modal](public/three.png)
+
+# Overview
+To create a web application that fetches data from the Google Books API and displays them on the screen. Further information about the books (image, description, preview link) should be displayed. 
+
 
 # MVP
 - Create a page that allows users to search for books Page should include the following:
