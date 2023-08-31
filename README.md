@@ -1,9 +1,6 @@
-# Project Features
-
+# BookBrowse
 ### 👉 [Go to BookBrowse](https://bookbrowse.netlify.app/)
-![Google books Landing Page](public/one.png)
-![Google books App - List of all Books](public/two.png)
-![Google books Modal](public/three.png)
+
 
 # Overview
 To create a web application that fetches data from the Google Books API and displays them on the screen. Further information about the books (image, description, preview link) should be displayed. 
@@ -45,3 +42,9 @@ To create a web application that fetches data from the Google Books API and disp
 
 - React
 - SCSS# book-browse
+
+
+![Google books Landing Page](public/one.png)
+![Google books App - List of all Books](public/two.png)
+![Google books Modal](public/three.png)
+
